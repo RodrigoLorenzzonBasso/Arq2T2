@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_isim_beh.exe" -prj "E:/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_beh.prj" "work.CPU_tb" 

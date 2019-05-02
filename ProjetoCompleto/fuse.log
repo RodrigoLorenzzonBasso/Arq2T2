@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_isim_beh.exe -prj E:/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_beh.prj work.CPU_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/RegN_Bits.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/PacoteMR2.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/ULA.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/BancoRegistradores.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/BlocoDeDados.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/BlocoDeControle.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/UART.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/mr2.vhd" into library work
+Parsing VHDL file "E:/XilinxProjects/Arq2T2/ProjetoCompleto/TbMr2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package aux_functions
+Compiling package p_mr2
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','1','0','0...]
+Compiling architecture ram_mem of entity RAM_mem [\RAM_mem(('0','0','0','0','0','0...]
+Compiling package std_logic_signed
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','0','0'...]
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','1','0'...]
+Compiling architecture reg_bank of entity reg_bank [reg_bank_default]
+Compiling architecture alu of entity alu [alu_default]
+Compiling architecture regn of entity regnbit [\regnbit(32,('0','0','0','0','0'...]
+Compiling architecture datapath of entity datapath [datapath_default]
+Compiling architecture control_unit of entity control_unit [control_unit_default]
+Compiling architecture mr2 of entity MR2 [mr2_default]
+Compiling architecture uart of entity UART [uart_default]
+Compiling architecture cpu_tb of entity cpu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable E:/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_isim_beh.exe
+Fuse Memory Usage: 34716 KB
+Fuse CPU Usage: 468 ms
