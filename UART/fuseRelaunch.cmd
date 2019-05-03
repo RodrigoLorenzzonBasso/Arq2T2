@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/17103308/Desktop/Arq2T2/UART/UART_tb_isim_beh.exe" -prj "/home/17103308/Desktop/Arq2T2/UART/UART_tb_beh.prj" "work.UART_tb" 

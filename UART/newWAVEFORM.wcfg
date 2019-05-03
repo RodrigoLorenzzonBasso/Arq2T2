@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/17103308/Desktop/Arq2T2/UART/UART_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cone_crew" />
+            <top_module name="std_logic_1164" />
+            <top_module name="uart_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/uart_tb/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rw_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw_in</obj_property>
+      <obj_property name="ObjectShortName">rw_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/inta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inta</obj_property>
+      <obj_property name="ObjectShortName">inta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/acktx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acktx</obj_property>
+      <obj_property name="ObjectShortName">acktx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/sendrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendrx</obj_property>
+      <obj_property name="ObjectShortName">sendrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/sendtx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendtx</obj_property>
+      <obj_property name="ObjectShortName">sendtx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/ackrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ackrx</obj_property>
+      <obj_property name="ObjectShortName">ackrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/ck_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ck_period</obj_property>
+      <obj_property name="ObjectShortName">ck_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/temdadoparareceber" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">temdadoparareceber</obj_property>
+      <obj_property name="ObjectShortName">temdadoparareceber</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/recebendo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">recebendo</obj_property>
+      <obj_property name="ObjectShortName">recebendo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/contadorrx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">contadorrx</obj_property>
+      <obj_property name="ObjectShortName">contadorrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/temdadoparatransferir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">temdadoparatransferir</obj_property>
+      <obj_property name="ObjectShortName">temdadoparatransferir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/transferindo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">transferindo</obj_property>
+      <obj_property name="ObjectShortName">transferindo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/contadortx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">contadortx</obj_property>
+      <obj_property name="ObjectShortName">contadortx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/interrupcao" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupcao</obj_property>
+      <obj_property name="ObjectShortName">interrupcao</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/interrupcao2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupcao2</obj_property>
+      <obj_property name="ObjectShortName">interrupcao2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/rwo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rwo[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rwo[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/rri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rri[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rri[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/rr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/rw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/base" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">base[7:0]</obj_property>
+      <obj_property name="ObjectShortName">base[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/umavezrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">umavezrx</obj_property>
+      <obj_property name="ObjectShortName">umavezrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/umaveztx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">umaveztx</obj_property>
+      <obj_property name="ObjectShortName">umaveztx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/esperandorespostacpu2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">esperandorespostacpu2</obj_property>
+      <obj_property name="ObjectShortName">esperandorespostacpu2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_tb/uut/esperandorespostacpu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">esperandorespostacpu</obj_property>
+      <obj_property name="ObjectShortName">esperandorespostacpu</obj_property>
+   </wvobject>
+</wave_config>
