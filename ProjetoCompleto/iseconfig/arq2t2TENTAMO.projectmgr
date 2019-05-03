@@ -11,13 +11,13 @@
          <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>MR2 - MR2 (E:/XilinxProjects/Arq2T2/ProjetoCompleto/mr2.vhd)</SelectedItem>
+         <SelectedItem>MR2 - MR2 (E:/Code/XilinxProjects/Arq2T2/ProjetoCompleto/mr2.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000cb000000020000000000000000000000000200000064ffffffff000000810000000300000002000000cb0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000187000000020000000000000000000000000200000064ffffffff000000810000000300000002000001870000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>MR2 - MR2 (E:/XilinxProjects/Arq2T2/ProjetoCompleto/mr2.vhd)</CurrentItem>
+      <CurrentItem>MR2 - MR2 (E:/Code/XilinxProjects/Arq2T2/ProjetoCompleto/mr2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -63,17 +63,18 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU_tb - CPU_tb E:|Code|XilinxProjects|Arq2T2|ProjetoCompleto|TbMr2.vhd/CPU - MR2 - MR2/dp - datapath - datapath</ClosedNode>
          <ClosedNode>/CPU_tb - CPU_tb E:|XilinxProjects|Arq2T2|ProjetoCompleto|TbMr2.vhd</ClosedNode>
          <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>CPU_tb - CPU_tb (E:/XilinxProjects/Arq2T2/ProjetoCompleto/TbMr2.vhd)</SelectedItem>
+         <SelectedItem>dp - datapath - datapath (E:/Code/XilinxProjects/Arq2T2/ProjetoCompleto/BlocoDeDados.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e2000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e20000000100000003000000000000000100000003</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>CPU_tb - CPU_tb (E:/XilinxProjects/Arq2T2/ProjetoCompleto/TbMr2.vhd)</CurrentItem>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000188000000020000000000000000000000000200000064ffffffff000000810000000300000002000001880000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>dp - datapath - datapath (E:/Code/XilinxProjects/Arq2T2/ProjetoCompleto/BlocoDeDados.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -81,13 +82,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>

@@ -37,119 +37,100 @@ architecture UART of UART is
 	signal RRI: std_logic_vector(11 downto 0) := "000000000000";
 	signal RWO: std_logic_vector(11 downto 0) := "000000000000";
 	
-	signal contador: integer := 0;
+	signal temDadoParaTransferir: std_logic := '0';
+	signal transferindo: std_logic := '0';
+	signal contadorTX: integer := 11;
 	
-	signal contadorRX: integer := 0;
-	signal dadoRX: std_logic_vector(11 downto 0);
+	signal temDadoParaReceber: std_logic := '0';
+	signal recebendo: std_logic := '0';
+	signal contadorRX: integer := 11;
 	
-	signal contadorTX: integer := 0;
-	signal dadoTX: std_logic_vector(11 downto 0);
-	
-	signal novoDado: std_logic := 0;
+
 
 begin
 
-BASE(0) <= rw_in;
-
-process(ck,rst)
-begin
-	if rst = '1' then		
-	elsif ck'event and ck = '1' then
-		if ce = '1' and inta = '1' then
-			if address = x"FFE00000" then
-				if BASE(0) = '0' then
-					RW <= data(7 downto 0);
-				elsif BASE(0) = '1' then
-					data <= RR;
-				end if;
-			end if;
-		end if;
-	end if;
-end process;
-
---RECEPÇÃO DE DADOS
-
-process(ck,rst)
-begin
-	if rst = '1' then
-	elsif ck'event and ck = '1' then
-			if contadorRX < 11 then
-				if sendRX = '1' then
-					dadoRX(contador) <= RX;
-					ackRX <= '1';
-				else
-					contadorRX <= contadorRX + 1;
-					ackRX <= 0;
-				end if;
-			else
-				contador <= 0;		
-				RRI <= dadoRX;		
-			end if;
-	end if;
-end process;
-
---TRANSMISSAO DE DADO
-
-process(ck,rst)
-begin
-
-	if rst = '1' then
-	elsif ck'event and ck = '1' then
-		if contadorTX < 11 then
-			TX <= RWO(contadorTX);
-			sendTX <= '1';
-			if ackTX = '1' then
-				RWO(contadorTX) <= '0';
-				sendTX <= '0';
-				contadorTX <= contadorTX + 1;
-			end if;	
-		else
-			contador <= 0;
-		end if;
-	end if;
-
-end process;
-
--- PASSAGEM DE RRI PARA RR
--- lógica de controle dos bits de start, paridade e stop
-
-process()
-begin
-	for i in 0 to 11 loop
-		if RRI(i) = '1' then
-			contador <= contador + 1;
-		end if;
-	end loop;
+	data(31 downto 0) <= x"000000" & BASE when ce = '1' and address = x"FFE0000" else
+								x"000000" & RW when ce = '1' and address = x"FFE0004" else
+								x"000000" & RR when ce = '1' and address = x"FFE0008" else
+								(others => 'Z');
+								
+	temDadoParaTransferir <= '1' when RWO(11) = '0' and RWO(1 downto 0) = "11" and temDadoParaTransferir = '0' else '0';
+	temDadoParaReceber <= '1' when RX = '0' and recebendo = '0' else '0';
+								
+	-- Transmissao
 	
-	if (contador mod 2) = 0 then
-		RR <= RRI(9 downto 2);
-		contador <= 0;
-	end if;
+	process(ck,rst)
+	begin
 	
-end process;
-
--- PASSAGEM DE RW PARA RWO
--- lógica de controle dos bits de start, paridade e stop
-
-process
-begin
-	
-	RWO <= "000000000011";
-	RWO(9 downto 2) <= RW;
-	
-	for i in 0 to 7 loop
-		if RW(i) = '1' then
-			contador <= contador + 1;
-		end if;
-	end loop;
-	
-	if (contador mod 2) = 1 then
-		RWO(10) <= '1'; 
-	end if;
+		if rst = '1' then
 		
-end process;
-
---TODO CONTROLE INTR, INTA
+		elsif ck'event and ck = '1' then
+			
+			--------
+			
+			if transferindo = '1' then
+			
+				if contadorTX >= 0 then
+				
+					if ackTX = '0' then
+					
+						TX <= RWO(contadorTX);
+						sendTX <= '1';
+				
+					elsif ackTX = '1' then
+					
+						if sendTX = '1' then
+							contadorTX <= contadorTX - 1;
+						end if;
+						sendTX <= '0';
+					
+					end if;
+				
+				else
+				
+					transferindo <= '0';
+					RWO <= "000000000000";
+				
+				end if;
+			
+			
+			-------
+			
+			elsif temDadoParaTransferir = '1' and transferindo = '0' then
+			
+				temDadoParaTransferir <= '0';
+				transferindo <= '1';
+				contador <= 11;
+			
+			end if;
+			
+		end if;
+	
+	end process;
+	
+	-- Recepcao
+	
+	process(ck, rst)
+	begin
+	
+		if rst = '1' then
+		
+		elsif ck'event and ck = '1' then	
+		
+			
+			
+			
+			if temDadoParaReceber = '1' and recebendo = '0' and RRI(1 downto 0) = "11" then
+			
+				recebendo <= '1';
+				contadorRX <= 11;
+				
+			end if;
+		
+		end if;
+	
+	
+	end process;
 			
 end UART;
 

@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"/home/17103308/Downloads/UART/UART.vhd" Line 61: Possible infinite loop; process does not have a wait statement
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1369" delta="old" >"/home/17103308/Downloads/UART/UART.vhd" Line 79: Possible infinite loop; process does not have a wait statement
-</msg>
-
 </messages>
 
