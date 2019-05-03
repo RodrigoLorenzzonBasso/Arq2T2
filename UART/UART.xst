@@ -1,5 +1,5 @@
-set -tmpdir "E:/Code/XilinxProjects/Arq2T2/UART/xst/projnav.tmp"
-set -xsthdpdir "E:/Code/XilinxProjects/Arq2T2/UART/xst"
+set -tmpdir "/home/17103308/Desktop/Arq2T2/UART/xst/projnav.tmp"
+set -xsthdpdir "/home/17103308/Desktop/Arq2T2/UART/xst"
 run -compileonly yes
 -p xc7a100t-3-csg324
 -top UART

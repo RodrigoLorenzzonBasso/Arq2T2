@@ -1,18 +1,21 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to E:/Code/XilinxProjects/Arq2T2/UART/xst/projnav.tmp
+--> 
+Parameter TMPDIR set to /home/17103308/Desktop/Arq2T2/UART/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.09 secs
  
---> Parameter xsthdpdir set to E:/Code/XilinxProjects/Arq2T2/UART/xst
+--> 
+Parameter xsthdpdir set to /home/17103308/Desktop/Arq2T2/UART/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.09 secs
  
---> Reading design: UART.prj
+--> 
+Reading design: UART.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,18 +42,19 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\Code\XilinxProjects\Arq2T2\UART\UART.vhd" into library work
+Parsing VHDL file "/home/17103308/Desktop/Arq2T2/UART/UART.vhd" into library work
 Parsing package <cone_crew>.
 Parsing entity <UART>.
 Parsing architecture <UART> of entity <uart>.
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.09 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.31 secs
  
 --> 
 
-Total memory usage is 4522328 kilobytes
+
+Total memory usage is 336168 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
