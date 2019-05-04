@@ -265,13 +265,13 @@ begin
 	CPU: Entity work.MR2 port map
 		(clock => ck, reset => rstCPU, i_address => i_cpu_address, instruction => Idata,
 		ce => ce, rw => rw, bw => bw, d_address => d_cpu_address, data => data_cpu,
-		intr => intr, inta => inta);
+		intr => '1', inta => inta);
 
-	C11: Entity work.UART port map
-			(rst => rst, ck => ck, ce => ce(0), rw => rw , inta => inta, intr => intr,
-			address => d_cpu_address, data => data_cpu
+	--C11: Entity work.UART port map
+			--(rst => rst, ck => ck, ce => ce(0), rw => rw , inta => inta, intr => intr,
+			--address => d_cpu_address, data => data_cpu
 			-- falta definir a interface com a outra UART (modelo assincrono) --
-			);
+			--);
 
 	---------------------------------------------------------------------------------------
 	---	Deve ser inserido um codigo que complementa a funcionalidade da UART

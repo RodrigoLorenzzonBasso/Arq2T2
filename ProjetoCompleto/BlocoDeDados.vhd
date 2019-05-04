@@ -15,7 +15,9 @@ entity datapath is
 		d_address: out reg32;
 		data: inout reg32;
 		uins: in microinstruction;
-		IR_OUT:	out reg32
+		IR_OUT:	out reg32;
+		intr: in std_logic;
+		inta: out std_logic
 	);
 end datapath;
 
@@ -29,6 +31,10 @@ architecture datapath of datapath is
 	signal salta: std_logic:= '0';
 	alias ixRS: std_logic_vector(4 downto 0) is IR(25 downto 21);	--  index to Rs --
 	alias ixRT: std_logic_vector(4 downto 0) is IR(20 downto 16);	--  index to Rt --
+	
+	signal pcSalvo: reg32 := (others =>  '0');
+	signal temInterrupcao: std_logic := '0';
+	signal EM_INT: std_logic := '0';
 
 begin
 
@@ -115,7 +121,37 @@ begin
 	-- fifth stage
 	--==============================================================================
 
-	dtpc <= result when (inst_branch='1' and salta='1') or uins.i=J or uins.i=JALR or uins.i=JR  else npc;
+	dtpc <= x"00400004" when temInterrupcao = '1' else
+			  pcSalvo when uins.i = ERET else
+			  result when(inst_branch='1' and salta='1') or uins.i=J or uins.i=JALR or uins.i=JR  else
+			  npc;
+
+	inta <= '1' when intr = '1' else '0';
+	
+	process(ck,rst)
+	begin
+	
+		if rst = '1' then
+		
+		elsif ck'event and ck = '1' then
+		
+			if temInterrupcao = '0' and intr = '1' and dtpc /= x"00400004" and EM_INT = '0' then
+				temInterrupcao <= '1';
+				pcSalvo <= pc;
+				EM_INT <= '1';
+			elsif dtpc = pc then
+				temInterrupcao <= '0';
+			end if;
+	
+			if uins.i = ERET then
+			
+				EM_INT <= '0';
+			
+			end if;
+	
+		end if;
+		
+	end process;
 
 	--  Data memory starting address: beware of the OFFSET!
 	rpc: entity work.regnbit generic map(N=>32, INIT_VALUE=>x"00400000") port map(ck=>ck, rst=>rst, ce=>uins.wpc, D=>dtpc, Q=>pc);

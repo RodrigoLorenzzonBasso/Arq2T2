@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Code/XilinxProjects/Arq2T2/ProjetoCompleto/CPU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="cpu_tb" />
+            <top_module name="p_mr2" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/cpu_tb/dadress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dadress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dadress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ddata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/iadress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iadress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iadress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/idata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">idata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/i_cpu_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_cpu_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cpu_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/d_cpu_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_cpu_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_cpu_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/data_cpu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_cpu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cpu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/tb_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tb_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_add[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/tb_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tb_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/dce_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dce_n</obj_property>
+      <obj_property name="ObjectShortName">dce_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/dwe_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dwe_n</obj_property>
+      <obj_property name="ObjectShortName">dwe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/doe_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">doe_n</obj_property>
+      <obj_property name="ObjectShortName">doe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ice_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ice_n</obj_property>
+      <obj_property name="ObjectShortName">ice_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/iwe_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iwe_n</obj_property>
+      <obj_property name="ObjectShortName">iwe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ioe_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ioe_n</obj_property>
+      <obj_property name="ObjectShortName">ioe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rstcpu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstcpu</obj_property>
+      <obj_property name="ObjectShortName">rstcpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/go_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">go_i</obj_property>
+      <obj_property name="ObjectShortName">go_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/go_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">go_d</obj_property>
+      <obj_property name="ObjectShortName">go_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/bw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bw</obj_property>
+      <obj_property name="ObjectShortName">bw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ce" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ce[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ce[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/inta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inta</obj_property>
+      <obj_property name="ObjectShortName">inta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/stx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stx</obj_property>
+      <obj_property name="ObjectShortName">stx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/tx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx[3:1]</obj_property>
+      <obj_property name="ObjectShortName">tx[3:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/tx_ack" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_ack[3:1]</obj_property>
+      <obj_property name="ObjectShortName">tx_ack[3:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/external_data16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">external_data16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">external_data16[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/external_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">external_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">external_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/incpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">incpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/dtpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dtpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dtpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/pcsalvo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcsalvo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsalvo[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/teminterrupcao" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">teminterrupcao</obj_property>
+      <obj_property name="ObjectShortName">teminterrupcao</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/dp/em_int" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">em_int</obj_property>
+      <obj_property name="ObjectShortName">em_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">uins.i</obj_property>
+   </wvobject>
+</wave_config>
