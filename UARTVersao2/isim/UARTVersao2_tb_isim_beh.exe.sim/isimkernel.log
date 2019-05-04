@@ -1,0 +1,29 @@
+Command line:
+   UARTVersao2_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62822
+
+Sat May 04 14:20:42 2019
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5175.64 Meg
+
+ Total Signals          : 46
+ Total Nets             : 137
+ Total Signal Drivers   : 29
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 14
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 498
+Total Line Count : 78
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5175.64 Meg
+
+Sat May 04 14:21:03 2019
+

@@ -1,0 +1,12 @@
+Command line:
+   UART_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62714
+
+Sat May 04 13:52:02 2019
+
+Resolution function required for the Net /uart/psttx driven by:
+/uart//UART.vhd:96
+/uart//UART.vhd:213
+

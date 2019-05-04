@@ -1,0 +1,5 @@
+set -tmpdir "E:/Code/XilinxProjects/Arq2T2/UARTVersao2/xst/projnav.tmp"
+set -xsthdpdir "E:/Code/XilinxProjects/Arq2T2/UARTVersao2/xst"
+elaborate
+-ifn UART.prj
+-ifmt mixed

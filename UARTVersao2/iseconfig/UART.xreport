@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-05-03T22:13:36</DateModified>
+  <DateModified>2019-05-04T14:02:19</DateModified>
   <ModuleName>UART</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Code/XilinxProjects/Arq2T2/UARTVersao2/iseconfig/UART.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Code/XilinxProjects/Arq2T2/UARTVersao2</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Code/XilinxProjects/Arq2T2/UARTVersao2\</ImplementationReportsDirectory>
   <DateInitialized>2019-05-03T22:13:35</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

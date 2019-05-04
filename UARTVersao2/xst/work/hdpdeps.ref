@@ -1,0 +1,10 @@
+V3 4
+FL E:/Code/XilinxProjects/Arq2T2/UARTVersao2/UART.vhd 2019/05/04.14:19:04 P.20131013
+PH work/cone_crew 1556990391 \
+      FL E:/Code/XilinxProjects/Arq2T2/UARTVersao2/UART.vhd \
+      PB ieee/std_logic_1164 1381692176
+EN work/UART 1556990392 \
+      FL E:/Code/XilinxProjects/Arq2T2/UARTVersao2/UART.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/cone_crew 1556990391
+AR work/UART/UART 1556990393 \
+      FL E:/Code/XilinxProjects/Arq2T2/UARTVersao2/UART.vhd EN work/UART 1556990392

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Code/XilinxProjects/Arq2T2/UARTVersao2/UARTVersao2_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cone_crew" />
+            <top_module name="std_logic_1164" />
+            <top_module name="uartversao2_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/uartversao2_tb/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/rw_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw_in</obj_property>
+      <obj_property name="ObjectShortName">rw_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/inta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inta</obj_property>
+      <obj_property name="ObjectShortName">inta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/acktx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acktx</obj_property>
+      <obj_property name="ObjectShortName">acktx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/sendrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendrx</obj_property>
+      <obj_property name="ObjectShortName">sendrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/intr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/sendtx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendtx</obj_property>
+      <obj_property name="ObjectShortName">sendtx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/ackrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ackrx</obj_property>
+      <obj_property name="ObjectShortName">ackrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">UART1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/sendtx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendtx</obj_property>
+      <obj_property name="ObjectShortName">sendtx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/acktx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acktx</obj_property>
+      <obj_property name="ObjectShortName">acktx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/sendrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sendrx</obj_property>
+      <obj_property name="ObjectShortName">sendrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/ackrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ackrx</obj_property>
+      <obj_property name="ObjectShortName">ackrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/interrupcaotx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupcaotx</obj_property>
+      <obj_property name="ObjectShortName">interrupcaotx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/contadortx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">contadortx</obj_property>
+      <obj_property name="ObjectShortName">contadortx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/sttx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sttx</obj_property>
+      <obj_property name="ObjectShortName">sttx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/psttx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">psttx</obj_property>
+      <obj_property name="ObjectShortName">psttx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/interrupcaorx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupcaorx</obj_property>
+      <obj_property name="ObjectShortName">interrupcaorx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/contadorrx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">contadorrx</obj_property>
+      <obj_property name="ObjectShortName">contadorrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/pstrx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pstrx</obj_property>
+      <obj_property name="ObjectShortName">pstrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/strx" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">strx</obj_property>
+      <obj_property name="ObjectShortName">strx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/rw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/base" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">base[7:0]</obj_property>
+      <obj_property name="ObjectShortName">base[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/rr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/rri" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rri[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rri[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uartversao2_tb/uut/rwo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rwo[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rwo[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">UART2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+</wave_config>

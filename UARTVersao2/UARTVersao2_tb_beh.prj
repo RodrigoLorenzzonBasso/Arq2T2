@@ -1,0 +1,2 @@
+vhdl work "UART.vhd"
+vhdl work "UARTVersao2_tb.vhd"
