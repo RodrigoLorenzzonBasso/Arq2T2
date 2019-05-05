@@ -1,0 +1,470 @@
+ISim log file
+Running: E:\Code\XilinxProjects\Arq2T2\TesteMipsMR2\CPU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view E:/Code/XilinxProjects/Arq2T2/TesteMipsMR2/NewWaveForm.wcfg -wdb E:/Code/XilinxProjects/Arq2T2/TesteMipsMR2/CPU_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 135 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 425 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 715 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1005 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1295 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1585 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1875 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2165 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2455 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2745 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3035 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3325 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3615 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3905 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2005 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2005 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2005 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3025 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3515 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 135 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 775 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2295 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3015 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3295 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3495 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2215 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2705 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 785 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2215 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2705 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 1725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 1725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2215 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2215 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 2705 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2705 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3235 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3235 ns(3): Error: ******************* INVALID INSTRUCTION *************
+at 3725 ns(1), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(2), Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3725 ns(3): Error: ******************* INVALID INSTRUCTION *************
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 4000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps: Error: ******************* INVALID INSTRUCTION *************
+at 0 ps, Instance /cpu_tb/CPU/dp/REGS/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
